@@ -1,1 +1,0 @@
-import{j as r}from"./index-341463da.js";import{L as t}from"./LazyImage-0f27a1f3.js";const n="_card_qancq_1",o={card:n};function i({img:c,heading:s,text:a}){return r.jsxs("div",{className:o.card,children:[r.jsx(t,{loading:"lazy",effect:"blur",src:c,alt:""}),r.jsx("h4",{children:s}),r.jsx("p",{children:a})]})}export{i as P};

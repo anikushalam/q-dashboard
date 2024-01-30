@@ -1,0 +1,75 @@
+.cardContainer {
+  width: 20rem;
+  padding: 1.5rem;
+  box-shadow: 5px 15px 27px 5px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.cardContainer:hover {
+  background-color: #405073;
+}
+.card > img,
+.card > span > img {
+  height: 4rem;
+}
+
+.card > h4 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #2699cc;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  line-height: 1.3;
+}
+
+.card > p,
+.viewP {
+  text-align: center;
+  font-family: "Inter";
+  font-size: 1rem;
+  line-height: 1.3;
+  color: #222427;
+}
+
+.cardbottom {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem;
+  background-color: #405073;
+  margin-top: 1rem;
+  border-radius: 0.5rem;
+}
+.cardlink {
+  width: 100%;
+}
+.viewP {
+  font-size: 0.9rem;
+  color: rgb(226, 226, 226);
+  margin-bottom: 0;
+}
+.cardContainer:hover p {
+  color: rgb(222, 226, 234);
+}
+
+.cardContainer:hover .cardbottom {
+  background-color: rgb(225, 233, 230);
+}
+
+.cardContainer:hover .viewP {
+  color: rgb(44, 64, 93);
+}
